@@ -20,8 +20,12 @@ import { TodoApp } from './08-useReducer/TodoApp';
 
 import './index.css'
 
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//     <React.StrictMode>
+//       <TodoApp />
+//     </React.StrictMode>
+//   )
+  
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <TodoApp />
-  </React.StrictMode>
+  <TodoApp />
 )
