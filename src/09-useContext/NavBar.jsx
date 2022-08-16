@@ -13,7 +13,7 @@ export const NavBar = () => {
         <NavLink className={ ({ isActive }) => `nav-link ${ isActive ? "active" : "" }`}
                  to="/"
         >
-            About
+            Home
         </NavLink>
         <NavLink className={ ({ isActive }) => `nav-link ${ isActive ? "active" : "" }`}
                  to="/about"
