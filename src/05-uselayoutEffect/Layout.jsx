@@ -21,10 +21,11 @@ export const Layout = () => {
 
     <Quote data={data}/>
 
-    <button className="btn btn-primary" 
+    <button 
+            className="btn btn-primary" 
             onClick={ () => increment() }
             disabled = { isLoading }
-            >
+    >
         Next Quote
     </button>
 

@@ -29,9 +29,9 @@ export const CounterApp = () => {
 
         <hr />
 
-        <button className="btn" onClick={ () => changeCounter1() }>+1</button>
-        <button className="btn" onClick={ () => changeCounter2() }>+1</button>
-        <button className="btn" onClick={ () => changeCounter3() }>+1</button>
+        <button className="btn btn-primary" onClick={ () => changeCounter1() }>+1</button>
+        <button className="btn btn-primary" onClick={ () => changeCounter2() }>+1</button>
+        <button className="btn btn-primary" onClick={ () => changeCounter3() }>+1</button>
 
     </>
 

@@ -11,7 +11,7 @@ export const Quote = ({data}) => {
 
   useLayoutEffect(() => {
     
-   const { height, width } = pRef.current.getBoundingClientRect();
+    const { height, width } = pRef.current.getBoundingClientRect();
     setBoxSize({ height, width });
 
   }, [quote])
